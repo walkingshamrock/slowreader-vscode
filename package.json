@@ -20,6 +20,10 @@
       {
         "command": "slowreader.start",
         "title": "SlowReader: Start Typing Animation"
+      },
+      {
+        "command": "slowreader.cancel",
+        "title": "SlowReader: Cancel Typing Animation"
       }
     ],
     "configuration": {
