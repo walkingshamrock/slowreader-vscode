@@ -56,11 +56,10 @@
     "test": "node ./out/test/runTest.js"
   },
   "devDependencies": {
-    "@types/vscode": "^1.85.0",
     "@types/glob": "^7.2.0",
     "@types/mocha": "^10.0.1",
     "@types/node": "18.x",
-    "typescript": "^5.3.3",
-    "vscode-test": "^2.3.1"
+    "@types/vscode": "^1.85.0",
+    "typescript": "^5.3.3"
   }
 }
