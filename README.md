@@ -2,6 +2,10 @@
 
 SlowReader is a Visual Studio Code extension that reveals text one character at a time, simulating a typewriter-style animation. This extension is useful for presentations, live coding, tutorials, or simply adding a visual effect to your editing experience.
 
+Thank you for considering supporting this project! Your generosity helps keep development active and ensures the plugin continues to improve.
+
+[![Buy Me A Coffee](https://img.shields.io/badge/-Buy%20me%20a%20coffee-yellow?style=for-the-badge&logo=buy-me-a-coffee&logoColor=white)](https://www.buymeacoffee.com/walkingshamrock)
+
 ## Features
 
 - Typewriter-style animation of text in the active editor
@@ -32,12 +36,6 @@ This value is specified in milliseconds.
 |----------------------------------------|--------------------------------------------------|
 | `SlowReader: Start Typing Animation`   | Start animating the visible text in the editor   |
 | `SlowReader: Cancel Typing Animation`  | Cancel the animation and show the full content   |
-
-## Support This Project
-
-If you find this extension helpful, you can support its development:
-
-[![Buy Me A Coffee](https://img.shields.io/badge/-Buy%20me%20a%20coffee-yellow?style=for-the-badge&logo=buy-me-a-coffee&logoColor=white)](https://www.buymeacoffee.com/walkingshamrock)
 
 ## Requirements
 
