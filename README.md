@@ -1,8 +1,11 @@
 # SlowReader
 
+[![VSCode Marketplace](https://img.shields.io/visual-studio-marketplace/v/walkingshamrock.slowreader-vscode.svg?label=VSCode%20Marketplace)](https://marketplace.visualstudio.com/items?itemName=walkingshamrock.slowreader-vscode)
+[![Installs](https://img.shields.io/visual-studio-marketplace/i/walkingshamrock.slowreader-vscode.svg)](https://marketplace.visualstudio.com/items?itemName=walkingshamrock.slowreader-vscode)
+
 SlowReader is a Visual Studio Code extension that reveals text one character at a time, simulating a typewriter-style animation. This extension is useful for presentations, live coding, tutorials, or simply adding a visual effect to your editing experience.
 
-Thank you for considering supporting this project! Your generosity helps keep development active and ensures the plugin continues to improve.
+We truly appreciate your support. Your generosity encourages us to keep improving SlowReader and helps sustain its ongoing development.
 
 [![Buy Me A Coffee](https://img.shields.io/badge/-Buy%20me%20a%20coffee-yellow?style=for-the-badge&logo=buy-me-a-coffee&logoColor=white)](https://www.buymeacoffee.com/walkingshamrock)
 
