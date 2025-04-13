@@ -2,6 +2,8 @@ import * as vscode from 'vscode';
 
 export function activate(context: vscode.ExtensionContext) {
   const disposable = vscode.commands.registerCommand('slowreader.start', async () => {
+    const config = vscode.workspace.getConfiguration('slowreader');
+    const delay = config.get<number>('delay', 80);
     const editor = vscode.window.activeTextEditor;
     if (!editor) {
       vscode.window.showInformationMessage('No active editor!');
@@ -43,7 +45,7 @@ export function activate(context: vscode.ExtensionContext) {
         );
       }
 
-      await new Promise(resolve => setTimeout(resolve, 80));
+      await new Promise(resolve => setTimeout(resolve, delay));
     }
   });
 

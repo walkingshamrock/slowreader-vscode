@@ -21,7 +21,18 @@
         "command": "slowreader.start",
         "title": "SlowReader: Start Typing Animation"
       }
-    ]
+    ],
+    "configuration": {
+      "type": "object",
+      "title": "SlowReader Settings",
+      "properties": {
+        "slowreader.delay": {
+          "type": "number",
+          "default": 80,
+          "description": "Delay in milliseconds between each character when animating text."
+        }
+      }
+    }
   },
   "scripts": {
     "vscode:prepublish": "npm run compile",
