@@ -3,7 +3,10 @@
   "displayName": "SlowReader",
   "description": "A VSCode extension that reveals text one character at a time, simulating a typewriter-style animation.",
   "version": "0.1.0",
-  "author": "walkingshamrock",
+  "author": {
+    "name": "walkingshamrock",
+    "url": "https://github.com/walkingshamrock"
+  },
   "license": "MIT",
   "engines": {
     "vscode": "^1.85.0"
