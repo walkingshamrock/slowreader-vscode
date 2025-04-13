@@ -1,71 +1,60 @@
-# slowreader README
+# SlowReader
 
-This is the README for your extension "slowreader". After writing up a brief description, we recommend including the following sections.
+SlowReader is a Visual Studio Code extension that reveals text one character at a time, simulating a typewriter-style animation. This extension is useful for presentations, live coding, tutorials, or simply adding a visual effect to your editing experience.
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+- Typewriter-style animation of text in the active editor
+- Customizable delay between character displays
+- Manual cancel support via Command Palette
+- Instantly reveal remaining text when animation is cancelled
 
-For example if there is an image subfolder under your extension project workspace:
+## Usage
 
-\!\[feature X\]\(images/feature-x.png\)
+1. Open a text file in the editor
+2. Run the command `SlowReader: Start Typing Animation` from the Command Palette
+3. To cancel the animation and show the rest of the text immediately, run:
+   - `SlowReader: Cancel Typing Animation`
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+## Configuration
+
+You can customize the delay between characters by updating your settings:
+
+```json
+"slowreader.delay": 80
+```
+
+This value is specified in milliseconds.
+
+## Commands
+
+| Command                                | Description                                      |
+|----------------------------------------|--------------------------------------------------|
+| `SlowReader: Start Typing Animation`   | Start animating the visible text in the editor   |
+| `SlowReader: Cancel Typing Animation`  | Cancel the animation and show the full content   |
+
+## Support This Project
+
+If you find this extension helpful, you can support its development:
+
+[![Buy Me A Coffee](https://img.shields.io/badge/-Buy%20me%20a%20coffee-yellow?style=for-the-badge&logo=buy-me-a-coffee&logoColor=white)](https://www.buymeacoffee.com/walkingshamrock)
 
 ## Requirements
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
-
-## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
+- Visual Studio Code version 1.85.0 or newer
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
+### 0.1.0
 
-### 1.0.0
+- Initial release with typewriter animation
+- Configurable delay setting
+- Manual cancel support
 
-Initial release of ...
+## Additional Resources
 
-### 1.0.1
+- [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
+- [VS Code Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
+- [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
 
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Following extension guidelines
-
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
-
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+Thank you for using SlowReader.
