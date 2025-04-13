@@ -1,0 +1,33 @@
+# Node modules (installed packages)
+node_modules/
+
+# Compiled output
+out/
+dist/
+
+# Build artifacts
+*.tsbuildinfo
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# VSCode settings (optional, if you don't want to share workspace config)
+.vscode/
+
+# Environment files (if any)
+.env
+.env.local
+.env.*.local
+
+# Coverage reports
+coverage/
+
+# VSCode Extension test workspace cache
+*.code-workspace
